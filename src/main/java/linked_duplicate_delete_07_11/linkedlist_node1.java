@@ -1,13 +1,11 @@
-package linked_duplicate_delete;
-
-import java.util.List;
+package linked_duplicate_delete_07_11;
 
 /**
  * @Author Zhangmengyan
  * @Date 11/07/2021
  **/
 
-public class linkedlist_node1_07_11 {
+public class linkedlist_node1 {
 
     public static class ListNode {
       int val;

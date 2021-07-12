@@ -1,4 +1,4 @@
-package linked_node_delete;
+package linked_node_delete_07_11;
 
 /**
  * @Author Zhangmegnyan
@@ -31,7 +31,7 @@ class ListNode{
     }
 }
 
-public class inkedlist_node_07_11 {
+public class inkedlist_node {
     public static void main(String[] args) {
         ListNode l = new ListNode(1);
         l.add(2);
