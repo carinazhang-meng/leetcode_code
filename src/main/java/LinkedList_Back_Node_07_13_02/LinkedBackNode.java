@@ -1,9 +1,5 @@
-package LinkedList_Back_Node_07_13;
+package LinkedList_Back_Node_07_13_02;
 
-
-import linked_duplicate_delete_07_11.linkedlist_node1;
-
-import java.util.List;
 
 /**
  * @Author Zhangmengyan
