@@ -28,9 +28,8 @@ public class Merge {
         n1.next = n2;
         n2.next = n3;
         n3.next = null;
-        while (n1 != null || m1 != null) {
-            mergeTwoLists(n1, n2);
-        }
+        mergeTwoLists(n1, n2);
+
     }
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
