@@ -1,4 +1,4 @@
-package Quick_Sort_07_20_01;
+package Face_exercise.Quick_Sort_07_20_01;
 
 /**
  * @Author Zhangmengyan
