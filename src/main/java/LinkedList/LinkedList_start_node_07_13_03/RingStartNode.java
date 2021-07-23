@@ -25,6 +25,14 @@ public class RingStartNode {
         n4.next = n5;
         n5.next = n6;
         n6.next = n3;
+        int[] num1 = {1,3,4,5,6};
+        ListNode head = new ListNode(0);
+        ListNode prev = head;
+        for(int i =0;i < num1.length;i++){
+            ListNode node = new ListNode(num1[i]);
+            prev.next = node;
+            prev = node;
+        }
         EntryNodeOfLoop(n1);
     }
 
