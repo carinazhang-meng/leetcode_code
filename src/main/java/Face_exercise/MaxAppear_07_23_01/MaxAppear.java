@@ -31,3 +31,9 @@ public class MaxAppear {
     }
 
 }
+/*
+用哈希表完成
+1.遍历整个数组将num[i]和其出现的次数找出来，使用方法getOrderDefault(num[i],0)+1
+2.设置边界最大值。
+3.再次遍历一次数组，获得num[i]的次数，如果比最大值要大，就给max，否则继续遍历
+ */
