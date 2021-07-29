@@ -47,6 +47,13 @@ public class LevelTravel {
         order(root.right, level + 1);
     }
 }
+/*
+层次遍历：
+1.先构建一个全局的链表，里面用来存放每一层的节点。
+2.当链表大小小于层数大小的时候，每次构建一个链表，将根节点的结果添加到这一层的链表中。
+3.遍历左子树，同时层数+1.
+4.遍历右子树，同时层数加1
+ */
 //public ArrayList<ArrayList<Integer>> levelOrder (TreeNode root) {
 // 使用队列完成层次遍历，时间较长。
 
