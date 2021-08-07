@@ -1,4 +1,4 @@
-package jishiti.Shanti_08_04_01;
+package jishiti.huawei.Shanti_08_04_01;
 
 import java.util.Scanner;
 

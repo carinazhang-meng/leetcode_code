@@ -1,4 +1,4 @@
-package jishiti.waimai_07_04_02;
+package jishiti.huawei.waimai_08_04_02;
 
 import java.util.Scanner;
 
@@ -24,6 +24,7 @@ public class Waimai {
                 time[j] = Math.min(time[j / 2], time[j - 1]) + 1;
             } else {
                 time[j] = Math.min(Math.min(time[(j + 1) / 2] + 2, time[(j - 1) / 2] + 2), time[j - 1] + 1);
+                //多一层和少一层
             }
         }
 
