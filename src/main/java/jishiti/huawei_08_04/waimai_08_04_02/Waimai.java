@@ -1,4 +1,4 @@
-package jishiti.huawei.waimai_08_04_02;
+package jishiti.huawei_08_04.waimai_08_04_02;
 
 import java.util.Scanner;
 
