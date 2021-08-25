@@ -37,11 +37,12 @@ public class jimu {
         if (nums.length == 1) {
             return 1;
         }
+
         Arrays.sort(nums, (o1, o2) -> {
-            if (Math.min(o2[0], o2[1]) == Math.min(o1[0], o1[1])) {
-                return Math.max(o2[0], o2[1]) - Math.max(o1[0], o1[1]);
+            if (Math.min(o2[0], o2[1]) == Math.min(o1[0], o1[1])) {//如果最小的数相等，就比较另一个数
+                return Math.max(o2[0], o2[1]) - Math.max(o1[0], o1[1]);//升序排列
             }
-            return Math.min(o2[0], o2[1]) - Math.min(o1[0], o1[1]);
+            return Math.min(o2[0], o2[1]) - Math.min(o1[0], o1[1]);//否则用最小的数去比较。
         });
         for (int i = 0; i < nums.length; i++) {
             System.out.println(Arrays.toString(nums[i]));
